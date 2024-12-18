@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14511390.svg)](https://doi.org/10.5281/zenodo.14511390)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14511390.svg)](https://doi.org/10.5281/zenodo.14511390) 
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:9235e8de72f0b46248790dd935bd8bea7664d599/)](https://archive.softwareheritage.org/swh:1:dir:9235e8de72f0b46248790dd935bd8bea7664d599;origin=https://github.com/celersms/CelerCOM)
 
 # CelerCOM
 
