@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14511390.svg)](https://doi.org/10.5281/zenodo.14511390)
+
 # CelerCOM
 
 CelerCOM is a free minimalistic Java library, which can be used to interact with external devices
