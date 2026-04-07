@@ -1,0 +1,22 @@
+<HTML>
+<BODY>
+<a href="https://www.celersms.com/"><img style="position:absolute;top:-32px;right:16px" src="doc-files/logo.png" alt="CelerSMS"></a>
+<b>CelerCOM</b> is a Java library featuring connectivity with external devices through COM ports, for example: USB, virtual COM.
+<p>Reading from and writing to a COM port is implemented through the standard Java InputStream and OutputStream interfaces respectively.
+<p><img style="display:block;margin-left:auto;margin-right:auto" src="doc-files/CelerCOM.png" alt="Native and Java drivers">
+<p>CelerCOM uses a native JNI driver for the following Operating Systems (OS) and CPU architectures:
+<table style="border-style:none;margin-left:50px"><caption>&nbsp;</caption>
+<tr><th><th>Windows<th>Linux
+<tr class="rowColor"><td>x86 (32 bit)<td>&nbsp;&#10003;<td>&nbsp;&#10003;
+<tr class="rowColor"><td>AMD64 (64 bit)<td>&nbsp;&#10003;<td>&nbsp;&#10003;
+<tr class="rowColor"><td>ARM (32 bit)<td><td>&nbsp;&#10003;
+</table>
+<p>For any other OS or architecture a pure Java implementaion is used, which is based on the RandomAccessFile (RAF) API.
+The RAF driver is also used as a fallback if the native driver is not available. The native driver is preferred:
+<ul>
+<li>The native driver can recover from unexpected communication errors automatically.</li>
+<li>The ability to disable system cache for I/O operations, which is required for compatibility with some communication devices.</li>
+<li>Read operations block for 200ms at most when using the native driver. The RAF driver blocks indefinitely when waiting for the device.</li>
+</ul>
+</BODY>
+</HTML>
