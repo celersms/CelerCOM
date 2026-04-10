@@ -3,10 +3,14 @@
 
 # CelerCOM
 
-[CelerCOM](https://www.celersms.com/CelerCOM.htm) is a free minimalistic Java library, which can be used to interact with external devices
-over COM ports, for example: USB, virtual COM. The library has no external dependencies. Native
+CelerCOM is a minimalistic Java library, which can be used to interact with external devices
+over COM ports, for example: USB, virtual COM. It can be used to interact with TTY and FIFO files as well. The library has no external dependencies. Native
 drivers are included for 32-bit and 64-bit Windows and Linux. A pure Java driver is available as
-a fallback for other OS and architectures.
+a fallback for other OS and architectures.  
+
+## How to use
+
+Just add `CelerCOM.jar` to you classpath. The API is described in the [javadoc documentation](https://www.celersms.com/doc/CelerCOM/com/celer/package-summary.html).  
 
 ## TTY Example
 
